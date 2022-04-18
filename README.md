@@ -2,7 +2,7 @@
 ![portada](https://viajesparanico.com.ar/wp-content/uploads/2020/05/airbnb00-678x381.jpg)
 
 # Objetive 🎯
-Given the recent popularity of turistic apartments in big cities, my intention is to provive a software in which users can perform in-map Airbnb data exploration according to their interest.
+Given the recent popularity of turistic apartments in big cities, my intention is to provive a software (app alike) in which users can perform in-map Airbnb data exploration according to their interest.
 
 # Scope and extra information 🔎
 In this work I've selected Madrid because Madrid Rocks! 🤘🏽
@@ -17,7 +17,6 @@ However, I've found that Inside Airbnb website provides same information for dif
 [Inside Airbnb](http://insideairbnb.com/get-the-data/): to get latest Airbnb data for several cities around the world.
 
 # Step by step 🏃🏽‍♂️
-
 1. Download csv data from data sources.
 
 2. Reshaping and cleaning performed in python (tables: listings, neighborhoods, hosts, reviews, calendar).
@@ -32,8 +31,7 @@ However, I've found that Inside Airbnb website provides same information for dif
 
 7. Use combined data to develop three different dashboards with three different perspectives (price, reviews, calendar avalability).
 
-# Dashboards created in Tableau Public:
-
+# Dashboards created in Tableau Public 📈
 1. Reviews dashboard preview:
 
 ![image](https://public.tableau.com/static/images/ai/airbnb_project_2_explore_map/dashboard_explore_map/4_3.png)
@@ -46,46 +44,35 @@ However, I've found that Inside Airbnb website provides same information for dif
 
 ![image](https://public.tableau.com/static/images/ai/airbnb_project_2_calendar/dashboard_calendar/4_3.png)
 
-[Tableau Public myprofile](https://public.tableau.com/app/profile/fernando.seguias): to use all of them, please go to my Tableau Public profile 
+[Tableau Public myprofile](https://public.tableau.com/app/profile/fernando.seguias): to use all of them, please go to my Tableau Public profile (I recommend to use 27" screen to see correct format).
 
 # Files structure 📦
-
 1. listings: all apartments listed in Madrid (17.831 apartments listed) 👀
 2. neighborhoods: spatial data for all neighborhoods and municipalities in Madrid Capital.
 3. hosts: list of hosts which have listed apartments in airbnb. There is the category "superhost" given by Aribnb according to their scores and frequency.
 4. reviews: all reviews posted per each listing.
 5. calendar: all 2022 calendar availability for selected listings (take into account calendar data is 365 times bigger than listings, this is why I selected most relevant hosts) 
 
-To get a better understanding of the data conexions between tables, see SQL Workbench diagram below.
+To get a better understanding of the data relationship between tables, see SQL Workbench diagram below.
 
-![image]()
+![image](https://raw.githubusercontent.com/ferseguias/project_2/main/sql_files/Screenshot%202022-04-18%20at%2016.38.03.png)
 
-# Learnings 📈
+# Learnings 💡
+- It's great to combine three different tools such as python, SQL and Tableau to create interactive dashboards.
 
-- Analyzing historical data we can obtain insights of the market (in real time if desired) and improve our decisions. It's generaly accepted that patters repeat over time
-
-- There are many opportunities in this industry, but as reflected in all charts, there is still a lot of volatility/risk
-
-- As it is a young industry, the growth is supernatural. The less marketcap, the more volatility. It can be taken as an advantage or you get rekt!
-
-- News clearly impact the market
+- An amazing business as Airbnb is just an amazing idea, well executed though. However if you just create a data base filled by people who is interested in renting their apartments and then create the interface to interact with people interested in having cheap and better holidays rent, then you have your own Airbnb - I'm not underestimating Airbnb achievements but working on these dashboards I realize the power of these tools in online business.
 
 - Don't forget to check out worst reviews captured in data, people get mad. It's hilarious! 🤣
 
 # Tools 🔧
+[sqlalchemy](https://pypi.org/project/SQLAlchemy/)
 
-[sys](https://docs.python.org/3/library/sys.html)
-
-[os](https://docs.python.org/3/library/os.html)
+[getpass](https://docs.python.org/3/library/getpass.html)
 
 [pandas](https://pandas.pydata.org/)
 
-[pycoingeckoAPI](https://www.coingecko.com/en/api/documentation)
+[geopandas](https://geopandas.org/en/stable/)
 
-[datetime](https://docs.python.org/3/library/datetime.html)
+SQL Workbench (desktop app)
 
-[time](https://docs.python.org/3/library/time.html)
-
-[matplotlib](https://matplotlib.org/)
-
-[pycoingecko](https://www.coingecko.com/en/api/documentation)
+Tableau Public (desktop app)
