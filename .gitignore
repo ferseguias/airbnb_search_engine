@@ -132,3 +132,9 @@ dmypy.json
 .DS_Store
 data/calendar.csv
 data/reviews_detailed.csv
+data/reviews_detailed.csv
+output/reviews.csv
+output/listings.csv
+output/neighborhoods.csv
+output/reviews.csv
+output/turistic_points.csv
