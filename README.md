@@ -29,10 +29,10 @@ However, I've found that Inside Airbnb website provides same information for dif
 
 6. Create database in Tableau Public with those csv files - relationships between tables 🔗.
 
-7. Use combined data to develop three different dashboards with three different perspectives (price, reviews, calendar avalability).
+7. Use combined data to develop three different dashboards with three different perspectives (prices, reviews, calendar avalability).
 
 # Dashboards created in Tableau Public 📈
-1. Reviews dashboard preview:
+1. Prices dashboard preview:
 
 ![image](https://public.tableau.com/static/images/ai/airbnb_project_2_explore_map/dashboard_explore_map/4_3.png)
 
@@ -44,7 +44,7 @@ However, I've found that Inside Airbnb website provides same information for dif
 
 ![image](https://public.tableau.com/static/images/ai/airbnb_project_2_calendar/dashboard_calendar/4_3.png)
 
-[Tableau Public myprofile](https://public.tableau.com/app/profile/fernando.seguias): to use all of them, please go to my Tableau Public profile (I recommend to use 27" screen to see correct format).
+[Tableau Public - myprofile](https://public.tableau.com/app/profile/fernando.seguias): to use all of them, please go to my Tableau Public profile (I recommend to use 27" screen to see correct format).
 
 # Files structure 📦
 1. listings: all apartments listed in Madrid (17.831 apartments listed) 👀
